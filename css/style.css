@@ -454,6 +454,15 @@ ul li a{
   right: -10px;
   top: -50px;
   border: 10px solid #eee;
+  transition: .3s;
+}
+}
+.testimonial .box img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 .testimonial .box h4{
   color: var(--main-color);
